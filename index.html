@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="Vishwas R" />
+        <title>TypeWriter.js</title>
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@latest/dist/css/bootstrap.min.css" rel="stylesheet" />
+		<style>
+			.features {
+			  width: 400px;
+			  text-align: left;
+			  margin: 30px auto;
+			}
+			.features li {
+				padding: 10px;
+				margin-bottom: 10px;
+				background-color: #424242;	
+				color: #fff;
+				list-style: none;
+			}
+			.heartbeat {
+			  display: inline-block;
+			  color: #d53434;
+			  animation: animateHeart 1s infinite;
+			}
+			@keyframes animateHeart {
+			  0%
+			  {
+				transform: scale( 1 );
+			  }
+			  20%
+			  {
+				transform: scale( 1.5 );
+			  }
+			  40%
+			  {
+				transform: scale( 1 );
+			  }
+			  60%
+			  {
+				transform: scale( 1.5 );
+			  }
+			  80%
+			  {
+				transform: scale( 1 );
+			  }
+			  100%
+			  {
+				transform: scale( 1 );
+			  }
+			}
+		</style>
+    </head>
+    <body class="bg-light">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="/">TypeWriter.js</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="#options">Options</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#code">Demo Code</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Page content-->
+        <div class="container">
+			<section class="mt-5">
+				<div class="text-center mt-5">
+					<h1 id="title"></h1>
+					<p class="lead">A lightweight, easy-to-implement JavaScript plugin to add animated typing effect for websites. Check out <a href="https://github.com/vishwas-r/TypeWriter.js" target="_blank">Github Repository</a> for more information & examples.</p>
+					<h2>Why TypeWriter.js</h2>
+					<ul class="features">
+						<li>Light-Weight (1.6kb)</li>
+						<li>Vanilla JavaScript Library</li>
+						<li>Simple, Easy-to-Use</li>
+						<li>No Dependencies</li>
+						<li>Loop your string(s) continuously</li>
+					</ul>
+				</div>
+			</section>
+			<section id="options" class="mt-5">
+				<h2>TypeWriter.js Options</h2>
+				<table class="table table-hover">
+				  <thead>
+				<tr class="table-dark">
+				  <th scope="col">#</th>
+				  <th scope="col">Option</th>
+				  <th scope="col">Description</th>
+				  <th scope="col">Options / Examples</th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr>
+				  <th scope="row">1</th>
+				  <td>strings</td>
+				  <td>Array of Strings</td>
+				  <td>["Developer.", "Freelancer.", "Content Writer.", "Photographer."]</td>
+				</tr>
+				<tr>
+				  <th scope="row">2</th>
+				  <td>speed</td>
+				  <td>Speed of Typing in ms</td>
+				  <td>100, 500, 1000, etc.</td>
+				</tr>
+				<tr>
+				  <th scope="row">3</th>
+				  <td>delay</td>
+				  <td>Delay Before Erasing each String (in ms)</td>
+				  <td>1000, 5000, etc.</td>
+				</tr>
+				<tr>
+				  <th scope="row">4</th>
+				  <td>loop</td>
+				  <td>Boolean to denote whether to loop the strings or not</td>
+				  <td>true, false</td>
+				</tr>
+				<tr>
+				  <th scope="row">5</th>
+				  <td>cursor</td>
+				  <td>Custom Cursor</td>
+				  <td>"|", "...", etc.</td>
+				</tr>
+			  </tbody>
+
+			  </table>
+			</section>
+			<section id="code" class="mt-5">
+				<h2>Demo Code</h2>
+				<pre class="bg-light"><code>&lt;html&gt;
+&lt;body&gt;
+&lt;h1 id=&quot;typewriter&quot;&gt;&lt;/h1&gt;
+&lt;script src=&quot;typewriter.min.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+window.onload = function() {
+	var typewriter = new TypeWriter(&quot;typewriter&quot;, {
+		strings: [&quot;TypeWriter.js&quot;, &quot;Light-Weight&quot;, &quot;Simple&quot;, &quot;Easy to Use&quot;],
+		delay: 2000
+	});
+	typewriter.start();
+}
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+			</section>
+			<footer class="text-end">
+			  <p>Made with <span class="heartbeat" style="color:#d53434">❤️</span> | <a href="https://vishwas.me/" target="_blank">Vishwas</a></p>
+			</footer>
+        </div>
+		<script src="dist/typewriter.min.js"></script>
+		<script>
+			window.onload = function() {
+				var title = new TypeWriter("title", {
+					strings: ["TypeWriter.js", "Light-Weight", "Simple", "Easy to Use"],
+					delay: 2000
+				});
+				title.start();
+			}
+		</script>
+    </body>
+</html>
