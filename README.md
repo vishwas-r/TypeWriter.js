@@ -1,6 +1,6 @@
 # TypeWriter.js
 
-A lightweight, easy-to-implement JavaScript plugin to add animated typing effect for websites.
+A lightweight, easy-to-implement JavaScript plugin to add animated typing effect for websites. Checkout [Demo Here](https://vishwas-r.github.io/TypeWriter.js/)
 
 Why TypeWriter.js
 -----------------
