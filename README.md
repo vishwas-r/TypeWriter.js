@@ -2,6 +2,9 @@
 
 A lightweight, easy-to-implement JavaScript plugin to add animated typing effect for websites. Checkout [Demo Here](https://vishwas-r.github.io/TypeWriter.js/)
 
+[![TypeWriter.js on npmjs](https://img.shields.io/npm/v/@vishwas.r/typewriter.js.svg)](https://www.npmjs.com/package/@vishwas.r/typewriter.js) [![](https://data.jsdelivr.com/v1/package/npm/@vishwas.r/typewriter.js/badge)](https://www.jsdelivr.com/package/npm/@vishwas.r/typewriter.js)
+[![Featured on Openbase](https://badges.openbase.com/js/featured/@vishwas.r/typewriter.js.svg?token=/SUB8DMZax/W8J7bfNbWyUp0D60jRbUNLZlsjgzDGGQ=)](https://openbase.com/js/@vishwas.r/typewriter.js?utm_source=embedded&amp;utm_medium=badge&amp;utm_campaign=rate-badge)
+
 Why TypeWriter.js
 -----------------
 
