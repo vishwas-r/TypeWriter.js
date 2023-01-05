@@ -1,4 +1,4 @@
-# TypeWriter.js
+![TypeWriter.js](https://raw.githubusercontent.com/vishwas-r/TypeWriter.js/main/img/typewriter.js.gif)
 
 A lightweight, easy-to-implement JavaScript plugin to add animated typing effect for websites. Checkout [Demo Here](https://vishwas-r.github.io/TypeWriter.js/)
 
