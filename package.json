@@ -1,0 +1,20 @@
+{
+  "name": "@vishwas.r/typewriter.js",
+  "version": "1.0.1",
+  "description": "A lightweight, easy-to-implement JavaScript plugin to add animated typing effect for websites.",
+  "main": "dist/typewriter.min.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishwas-r/TypeWriter.js.git"
+  },
+  "keywords": [
+    "typewriter",
+	"typewriter effect",
+	"typewriter animation",
+	"typing effect",
+	"typing animation"
+  ],
+  "author": "Vishwas R",
+  "license": "MIT",
+  "homepage": "https://github.com/vishwas-r/TypeWriter.js#readme"
+}
